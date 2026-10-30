@@ -24,8 +24,9 @@ levels.
 | **Speed trick** | each vertex's significance is computed once; any zoom level is then a threshold |
 | **Metrics** | displacement in screen pixels, area change, invalid geometries, segment crossings, sliver gaps/overlaps, Mapbox Vector Tile geometry bytes |
 
-📄 **Paper:** [`paper/paper.tex`](paper/paper.tex), *Topology-Aware Line Simplification for
-Web Maps: A Pixel-Tolerance Benchmark on Natural Earth*. CI builds the PDF on every push.
+📄 **Paper: [Read the PDF](paper/paper.pdf)**, *Topology-Aware Line Simplification for Web
+Maps: A Pixel-Tolerance Benchmark on Natural Earth*. The LaTeX source is
+[`paper/paper.tex`](paper/paper.tex), and CI rebuilds the PDF on every push.
 
 ---
 
