@@ -1,0 +1,17 @@
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Method & Mode & Retained & Disp.\ p95 (px) & Invalid & Crossings & Gaps & Overlap (px$^2$) & KB & Time (s) \\
+\midrule
+Radial distance & Independent & 27.5\% & 1.00 & 47 & 16970 & 6101 & 953.0 & 314 & 0.9 \\
+ & Shared arcs & 27.6\% & 1.00 & 49 & 369 & 66 & 0.0 & 316 & 0.8 \\
+ & Shared arcs + repair & 27.6\% & 1.00 & 0 & 31 & 0 & 0.0 & 316 & 35.8 \\
+\midrule
+Douglas–Peucker & Independent & 9.2\% & 1.00 & 67 & 2452 & 857 & 786.3 & 135 & 0.3 \\
+ & Shared arcs & 9.1\% & 1.00 & 62 & 878 & 206 & 0.4 & 135 & 0.3 \\
+ & Shared arcs + repair & 9.3\% & 1.02 & 0 & 0 & 0 & 0.0 & 137 & 15.9 \\
+\midrule
+Visvalingam–Whyatt & Independent & 12.3\% & 5.75 & 43 & 986 & 301 & 111.1 & 161 & 0.3 \\
+ & Shared arcs & 12.3\% & 5.74 & 47 & 408 & 36 & 0.2 & 162 & 0.3 \\
+ & Shared arcs + repair & 12.4\% & 5.64 & 0 & 0 & 0 & 0.0 & 163 & 14.9 \\
+\bottomrule
+\end{tabular}
